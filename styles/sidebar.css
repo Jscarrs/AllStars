@@ -1,0 +1,127 @@
+/* Sidebar styles */
+.sidebar {
+  width: 100%;
+  max-width: 250px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  height: 100%;
+}
+
+.sidebar h2 {
+  margin: 0px;
+  font-size: 24px;
+}
+
+.sidebar hr {
+  margin: 10px 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  weight: 80%;
+  margin-top: -5px;
+}
+
+.sidebar ul li {
+  margin: 5px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #0d6efd;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  background-color: rgb(211, 244, 153);
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  border: 2px solid#0d6efd;
+}
+
+.sidebar ul li a:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.sidebar-filter-section {
+  margin-top: 20px;
+  color: #0d6efd;
+}
+
+.sidebar-filter-section label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.sidebar-filter-section input[type="checkbox"] {
+  margin-right: 5px;
+  padding: 5px;
+  color: #0d6efd;
+}
+
+/* Content styles */
+.content {
+  margin-left: 260px;
+  padding: 20px;
+}
+
+/* Banner styles (added within sidebar) */
+.sale-banner {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  background-color: rgb(211, 244, 153);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 7px solid #0d6efd;
+  box-shadow: 0 4px 8px rgba(20, 19, 19, 0.2);
+  margin: 20px 0; /* Space around the banner */
+}
+
+.sale-banner::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  border: 3px solid #0d6efd;
+  border-radius: 12px;
+}
+
+.sale-text {
+  color: yellow;
+  font-weight: bold;
+  margin: 10px 0px 0px 0px;
+  font-size: 60px;
+  text-align: center;
+  animation: blink 1s infinite;
+  padding-block: 10px;
+}
+
+.sale-text span {
+  display: block;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    color: #0d6efd;
+  }
+  50% {
+    color: #aeebf5;
+  }
+}
+@media (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+}
