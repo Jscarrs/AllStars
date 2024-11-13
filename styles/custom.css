@@ -1,0 +1,25 @@
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+.product-item {
+  overflow: hidden;
+}
+
+.product-item img {
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover img {
+  transform: scale(1.05);
+}

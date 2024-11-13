@@ -1,66 +1,88 @@
 /* Override Bootstrap Primary and Secondary Colors */
 :root {
-    --bs-primary: #30BEE1; /* Aqua Blue */
-    --bs-primary-rgb: 48, 190, 225;
-  
-    --bs-secondary: #FF6FB5; /* Vibrant Pink */
-    --bs-secondary-rgb: 255, 111, 181;
-  
-    --bs-success: #FFA07A; /* Light Peach (used for success states) */
-    --bs-success-rgb: 255, 160, 122;
-  
-    --bs-info: #009CD1; /* Dark Blue */
-    --bs-info-rgb: 0, 156, 209;
-  
-    /* Neutral Colors */
-    --bs-black: #000000;
-    --bs-white: #FFFFFF;
-  
-    --bs-dark: #212529; /* Primary Text Color */
-    --bs-dark-rgb: 33, 37, 41;
-  
-    --bs-gray: #CA9B1A; /* Secondary Text Color */
-    --bs-gray-rgb: 202, 155, 26;
-  
-    --bs-light: #E9ECEF; /* Light Background */
-    --bs-light-rgb: 233, 236, 239;
-  }
-  
-  /* Override Button Styles */
-  .btn-primary {
-    background-color: var(--bs-primary);
-    border-color: var(--bs-primary);
-  }
-  
-  .btn-primary:hover {
-    background-color: #009CD1; /* Darker blue for hover */
-    border-color: #009CD1;
-  }
-  
-  .btn-secondary {
-    background-color: var(--bs-secondary);
-    border-color: var(--bs-secondary);
-  }
-  
-  .btn-secondary:hover {
-    background-color: #FFA07A; /* Light Peach for hover */
-    border-color: #FFA07A;
-  }
-  
-  /* Disabled Button */
-  .btn:disabled {
-    background-color: var(--bs-light);
-    color: var(--bs-gray);
-    border-color: var(--bs-light);
-  }
-  
-  /* Link Colors */
-  a {
-    color: var(--bs-primary);
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: var(--bs-secondary);
-    text-decoration: underline;
-  }  
+  --bs-primary: #009cd1; /* Dark Blue */
+  --bs-primary-rgb: 0, 156, 209;
+
+  --bs-secondary: #ff6fb5; /* Vibrant Pink */
+  --bs-secondary-rgb: 255, 111, 181;
+
+  --bs-info: #30bee1; /* Aqua Blue */
+  --bs-info-rgb: 48, 190, 225;
+
+  --bs-success: #ffa07a; /* Light Peach (used for success states) */
+  --bs-success-rgb: 255, 160, 122;
+
+  /* Neutral Colors */
+  --bs-black: #000000;
+  --bs-white: #ffffff;
+
+  --bs-dark: #212529; /* Primary Text Color */
+  --bs-dark-rgb: 33, 37, 41;
+
+  --bs-gray: #a9b1ba; /* Secondary Text Color */
+  --bs-gray-rgb: 169, 177, 186;
+
+  --bs-light: #e9ecef; /* Light Background */
+  --bs-light-rgb: 233, 236, 239;
+}
+
+/* Override Button Styles */
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--bs-secondary); 
+  border-color: var(--bs-secondary); 
+}
+
+.btn-clear {
+  color: var(--bs-primary);
+  border: none;
+}
+
+.btn-clear:hover {
+  color: var(--bs-secondary);
+  border: none;
+}
+
+.btn-secondary {
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--bs-primary); 
+  border-color: var(--bs-primary);
+}
+
+/* Disabled Button */
+.btn:disabled {
+  background-color: var(--bs-light);
+  color: var(--bs-gray);
+  border-color: var(--bs-light);
+}
+
+/* Nav bar */
+.navbar {
+  background-color: white;
+}
+
+
+/* Link Colors */
+a,
+.nav-link {
+  color: var(--bs-primary);
+  text-decoration: none;
+}
+
+a:hover,
+.nav-link:hover, .nav-link:active{
+  color: var(--bs-secondary);
+  text-decoration: underline;
+}
+
+.icon-link:hover {
+  color: var(--bs-secondary);
+}
