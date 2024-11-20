@@ -1,0 +1,77 @@
+/* General Body text (Open Sans) */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400; /* Regular weight */
+  }
+  
+  /* Display fonts (DM Serif Display) */
+  .display-1, .display-2, .display-3 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400; /* Regular weight for Display fonts */
+  }
+  
+  .display-1 {
+    font-size: 96px;
+  }
+  
+  .display-2 {
+    font-size: 80px;
+  }
+  
+  .display-3 {
+    font-size: 72px;
+  }
+  
+  /* Heading fonts (Open Sans) */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; /* Bold weight for headings */
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  h3 {
+    font-size: 28px;
+  }
+  
+  h4 {
+    font-size: 24px;
+  }
+  
+  h5 {
+    font-size: 20px;
+  }
+  
+  h6 {
+    font-size: 16px;
+    font-weight: 600; /* Semi-bold weight for h6 */
+  }
+  
+  /* Paragraph text */
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  /* Button text */
+  .btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  /* Links */
+  a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline;
+  }  

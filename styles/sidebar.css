@@ -2,7 +2,7 @@
 .sidebar {
   width: 100%;
   max-width: 250px;
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -29,6 +29,7 @@
   margin: 5px 0;
 }
 
+/*
 .sidebar ul li a {
   text-decoration: none;
   color: #0d6efd;
@@ -38,17 +39,20 @@
   background-color: rgb(211, 244, 153);
   border-radius: 5px;
   transition: background-color 0.3s;
-  border: 2px solid#0d6efd;
+  border: 2px solid #0d6efd;
 }
+*/
 
+/*
 .sidebar ul li a:hover {
   background-color: #0d6efd;
   color: white;
 }
+*/
 
 .sidebar-filter-section {
   margin-top: 20px;
-  color: #0d6efd;
+  color: var(--bs-primary);
 }
 
 .sidebar-filter-section label {
@@ -60,7 +64,7 @@
 .sidebar-filter-section input[type="checkbox"] {
   margin-right: 5px;
   padding: 5px;
-  color: #0d6efd;
+  color: var(--bs-primary);
 }
 
 /* Content styles */
@@ -74,13 +78,13 @@
   width: 100%;
   max-width: 250px;
   height: auto;
-  background-color: rgb(211, 244, 153);
+  background-color: white;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  border: 7px solid #0d6efd;
+  border: 7px solid var(--bs-secondary);
   box-shadow: 0 4px 8px rgba(20, 19, 19, 0.2);
   margin: 20px 0; /* Space around the banner */
 }
@@ -90,7 +94,7 @@
   position: absolute;
   width: 90%;
   height: 90%;
-  border: 3px solid #0d6efd;
+  border: 3px solid var(--bs-secondary);
   border-radius: 12px;
 }
 
@@ -114,12 +118,13 @@
 @keyframes blink {
   0%,
   100% {
-    color: #0d6efd;
+    color: var(--bs-primary);
   }
   50% {
-    color: #aeebf5;
+    color: var(--bs-info);
   }
 }
+
 @media (max-width: 1024px) {
   .sidebar {
     display: none;
