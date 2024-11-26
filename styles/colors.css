@@ -36,8 +36,8 @@
 }
 
 .btn-primary:hover {
-  background-color: var(--bs-secondary); 
-  border-color: var(--bs-secondary); 
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
 }
 
 .btn-clear {
@@ -56,7 +56,7 @@
 }
 
 .btn-secondary:hover {
-  background-color: var(--bs-primary); 
+  background-color: var(--bs-primary);
   border-color: var(--bs-primary);
 }
 
@@ -72,7 +72,6 @@
   background-color: white;
 }
 
-
 /* Link Colors */
 a,
 .nav-link {
@@ -81,11 +80,16 @@ a,
 }
 
 a:hover,
-.nav-link:hover{
+.nav-link:hover {
   color: var(--bs-secondary);
   text-decoration: underline;
 }
 
 .icon-link:hover {
   color: var(--bs-secondary);
+}
+
+.footer-link {
+  color: var(--bs-light);
+  text-decoration: underline;
 }
