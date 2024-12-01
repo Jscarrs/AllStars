@@ -7,7 +7,8 @@
     <meta name="keywords" content="Custom T-Shirt, Clothing store" />
     <meta
       name="description"
-      content="Custom T-Shirts with AI-generated images powered by OpenArt.ai and DALL·E 2." />
+      content="Custom T-Shirts with AI-generated images powered by OpenArt.ai and DALL·E 2."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/favicon.ico" />
     <!-- Bootstrap style -->
@@ -15,15 +16,18 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous" />
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap Icon -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <!-- Main colors and typography styles -->
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/typography.css" />
     <link rel="stylesheet" href="styles/colors.css" />
     <link rel="stylesheet" href="styles/custom.css" />
@@ -45,7 +49,8 @@
             src="assets/logo.png"
             width="200"
             alt="Logo"
-            class="d-inline-block align-text-top" />
+            class="d-inline-block align-text-top"
+          />
         </a>
         <!-- End of Brand Logo -->
         <!-- Menu toggle button - Mobile-->
@@ -56,20 +61,23 @@
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation">
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon text-primary"></span>
         </button>
         <!-- Menu toggle button -->
         <!-- Nav Menu -->
         <div
           class="collapse navbar-collapse justify-content-between"
-          id="navbarNav">
+          id="navbarNav"
+        >
           <!-- Main menus -->
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/pages/shop.html"
-                >Shop All</a
-              >
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/shop.html">Shop All</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/pages/size-guide.html">Size Guide</a>
@@ -89,7 +97,8 @@
               <button
                 class="btn btn-clear dropdown-toggle"
                 data-bs-toggle="dropdown"
-                aria-expanded="false">
+                aria-expanded="false"
+              >
                 Profile
               </button>
               <ul class="dropdown-menu dropdown-menu-end">
@@ -115,7 +124,8 @@
                 data-bs-toggle="offcanvas"
                 href="#shoppingCart"
                 role="button"
-                aria-controls="shoppingCart">
+                aria-controls="shoppingCart"
+              >
                 <i class="bi bi-bag-fill"></i>
               </a>
             </li>
@@ -132,19 +142,22 @@
       class="offcanvas offcanvas-end"
       tabindex="-1"
       id="shoppingCart"
-      aria-labelledby="shoppingCartLabel">
+      aria-labelledby="shoppingCartLabel"
+    >
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="shoppingCartLabel">Shopping cart</h5>
         <button
           type="button"
           class="btn-close"
           data-bs-dismiss="offcanvas"
-          aria-label="Close"></button>
+          aria-label="Close"
+        ></button>
       </div>
       <div class="offcanvas-body">
         <ol class="list-group list-group-numbered">
           <li
-            class="list-group-item d-flex justify-content-between align-items-start">
+            class="list-group-item d-flex justify-content-between align-items-start"
+          >
             <div class="ms-2 me-auto">
               <div class="fw-bold">T-shirt - Abstract</div>
               $35.00
@@ -152,7 +165,8 @@
             <span class="badge text-bg-secondary rounded-pill">1</span>
           </li>
           <li
-            class="list-group-item d-flex justify-content-between align-items-start">
+            class="list-group-item d-flex justify-content-between align-items-start"
+          >
             <div class="ms-2 me-auto">
               <div class="fw-bold">T-shirt - Minimal</div>
               $30.00
@@ -160,7 +174,8 @@
             <span class="badge text-bg-secondary rounded-pill">2</span>
           </li>
           <li
-            class="list-group-item d-flex justify-content-between align-items-start">
+            class="list-group-item d-flex justify-content-between align-items-start"
+          >
             <div class="ms-2 me-auto">
               <div class="fw-bold">T-shirt - City</div>
               $25.99 - coupon applied
@@ -189,7 +204,8 @@
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.4);
-      ">
+      "
+    >
       <form
         class="modal-content animate"
         action="action_page.php"
@@ -201,10 +217,12 @@
           border: 1px solid #888;
           width: 80%;
           max-width: 400px;
-        ">
+        "
+      >
         <div
           class="imgcontainer"
-          style="text-align: center; margin: 24px 0 12px 0">
+          style="text-align: center; margin: 24px 0 12px 0"
+        >
           <span
             onclick="document.getElementById('loginModal').style.display='none'"
             class="close"
@@ -235,7 +253,8 @@
               display: inline-block;
               border: 1px solid #ccc;
               box-sizing: border-box;
-            " />
+            "
+          />
 
           <label for="psw"><b>Password</b></label>
           <input
@@ -250,7 +269,8 @@
               display: inline-block;
               border: 1px solid #ccc;
               box-sizing: border-box;
-            " />
+            "
+          />
 
           <button
             type="submit"
@@ -262,7 +282,8 @@
               border: none;
               cursor: pointer;
               width: 100%;
-            ">
+            "
+          >
             Login
           </button>
           <label>
@@ -275,7 +296,8 @@
           <button
             type="button"
             id="loginCloseButton"
-            style="width: auto; padding: 10px 18px; background-color: #ff6fb5">
+            style="width: auto; padding: 10px 18px; background-color: #ff6fb5"
+          >
             Cancel
           </button>
           <span class="psw">Forgot <a href="#">password?</a></span>
@@ -291,7 +313,8 @@
         id="promotionModal"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+        aria-hidden="true"
+      >
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -320,14 +343,16 @@
                       class="form-control"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
-                      placeholder="Enter email" />
+                      placeholder="Enter email"
+                    />
                     <small id="emailHelp" class="form-text text-muted"
                       >We'll never share your email with anyone else.</small
                     ><br />
                     <button
                       type="button"
                       class="btn btn-primary"
-                      data-bs-dismiss="modal">
+                      data-bs-dismiss="modal"
+                    >
                       Submit
                     </button>
                   </div>
@@ -338,7 +363,8 @@
               <button
                 type="button"
                 class="btn btn-secondary"
-                data-bs-dismiss="modal">
+                data-bs-dismiss="modal"
+              >
                 Close
               </button>
             </div>
@@ -464,7 +490,8 @@
           class="carousel-control-prev"
           type="button"
           data-bs-target="#homeBanner"
-          data-bs-slide="prev">
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
@@ -472,7 +499,8 @@
           class="carousel-control-next"
           type="button"
           data-bs-target="#homeBanner"
-          data-bs-slide="next">
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -500,7 +528,8 @@
               <img
                 src="assets/product1.webp"
                 class="card-img-top"
-                alt="Product Image" />
+                alt="Product Image"
+              />
               <div class="card-body">
                 <h6 class="card-title text-primary">T-shirt - Abstract</h6>
                 <p>$35.00</p>
@@ -512,7 +541,8 @@
               <img
                 src="assets/product2.webp"
                 class="card-img-top"
-                alt="Product Image" />
+                alt="Product Image"
+              />
               <div class="card-body">
                 <h6 class="card-title text-primary">T-shirt - Minimal</h6>
                 <p>$30.00</p>
@@ -524,7 +554,8 @@
               <img
                 src="assets/product3.webp"
                 class="card-img-top"
-                alt="Product Image" />
+                alt="Product Image"
+              />
               <div class="card-body">
                 <h6 class="card-title text-primary">T-shirt - City</h6>
                 <p>$40.00</p>
@@ -536,7 +567,8 @@
               <img
                 src="assets/product4.webp"
                 class="card-img-top"
-                alt="Product Image" />
+                alt="Product Image"
+              />
               <div class="card-body">
                 <h6 class="card-title text-primary">T-shirt - Mountains</h6>
                 <p>$35.00</p>
@@ -547,120 +579,120 @@
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
           <a
             href="/pages/shop.html"
-            class="btn btn-primary btn-lg px-4 me-sm-3">
+            class="btn btn-primary btn-lg px-4 me-sm-3"
+          >
             Shop All
           </a>
         </div>
       </div>
       <!-- End of Product list -->
+    </main>
+    <!-- End of main content -->
 
-      <!-- Footer -->
-      <footer class="bg-primary text-light py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-6 col-md-2 mb-3">
-              <h5>About Us</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-light"
-                    >Phone: +1 (647) 123 4567</a
-                  >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-light"
-                    >Email: info@allstars.com</a
-                  >
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-light"
-                    >Address: 205 Humber College Blvd, Etobicoke, ON M9W 5L7</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="col-6 col-md-2 mb-3">
-              <h5>Socials</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-light">Instagram</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-light">Facebook</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-light">X</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-light">Yelp</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link p-0 text-light">Thread</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-md-5 offset-md-1 mb-3">
-              <form>
-                <h5>Subscribe to our newsletter</h5>
-                <p>Monthly feature product, promotion, discount, and more!</p>
-                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label for="newsletter1" class="visually-hidden"
-                    >Email address</label
-                  >
-                  <input
-                    id="newsletter1"
-                    type="text"
-                    class="form-control"
-                    placeholder="Email address" />
-                  <button class="btn btn-outline-light" type="button">
-                    Subscribe
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div
-            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>
-              &copy; 2024 Team ALLSTARS Inc. <br />
-              Images on this site are generated by AI tools, including
-              <a class="footer-link" href="https://openart.ai/" target="_blank"
-                >OpenArt.ai</a
-              >
-              and
-              <a
-                class="footer-link"
-                href="https://openai.com/dall-e/"
-                target="_blank"
-                >DALL·E 2 by ChatGPT</a
-              >.
-            </p>
-            <ul class="list-unstyled d-flex">
-              <li class="ms-3">
-                <a class="link-light" href="#"><i class="bi bi-twitter"></i></a>
+    <!-- Footer -->
+    <footer class="bg-primary text-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>About Us</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light"
+                  >Phone: +1 (647) 123 4567</a
+                >
               </li>
-              <li class="ms-3">
-                <a class="link-light" href="#"
-                  ><i class="bi bi-instagram"></i
-                ></a>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light"
+                  >Email: info@allstars.com</a
+                >
               </li>
-              <li class="ms-3">
-                <a class="link-light" href="#"
-                  ><i class="bi bi-facebook"></i
-                ></a>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light"
+                  >Address: 205 Humber College Blvd, Etobicoke, ON M9W 5L7</a
+                >
               </li>
             </ul>
           </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Socials</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Instagram</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Facebook</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">X</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Yelp</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Thread</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly feature product, promotion, discount, and more!</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn btn-outline-light" type="button">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-      </footer>
-      <!-- End of Footer   -->
-    </main>
-    <!-- End of main content -->
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        >
+          <p>
+            &copy; 2024 Team ALLSTARS Inc. <br />
+            Images on this site are generated by AI tools, including
+            <a class="footer-link" href="https://openart.ai/" target="_blank"
+              >OpenArt.ai</a
+            >
+            and
+            <a
+              class="footer-link"
+              href="https://openai.com/dall-e/"
+              target="_blank"
+              >DALL·E 2 by ChatGPT</a
+            >.
+          </p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-light" href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-light" href="#"><i class="bi bi-instagram"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-light" href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer   -->
 
     <!-- For Promotional popup -->
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <!-- End of Promotional popup -->
 
@@ -717,6 +749,7 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
