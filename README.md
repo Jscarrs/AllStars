@@ -15,3 +15,4 @@ Technologies Used
     CSS3: Styling the website for a clean and modern look.
     JavaScript: Implementing interactive features like the shopping cart and product filters.
     Bootstrap: Framework used for responsive design and layout.
+Style Guide: https://www.figma.com/design/SqpWoJesxuKMzicNANYJhi/Simple-Style-Guide-%7C-Typography%2C-Color-%26-Shadow-(Community)?node-id=0-1&t=DJmyy3P7XOBFMqIy-1
