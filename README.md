@@ -2,7 +2,7 @@
 Welcome to the AllStars Shirt e-commerce website! This project is part of a group assignment aimed at developing a fully functional e-commerce platform where users can browse and purchase shirts.
 Features
 
-    Responsive Design: Built with HTML, CSS, JavaScript, and Bootstrap to ensure a seamless user experience across devices.
+    Responsive Design: Built with HTML, CSS, and Bootstrap to ensure a seamless user experience across devices.
     Product Listings: Display of shirt products with images, prices, and descriptions.
     Shopping Cart: Add products to the cart, view cart contents, and proceed to checkout.
     User Authentication: User login pop-up to create an account and log in.
