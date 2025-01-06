@@ -1,0 +1,32 @@
+/* Navigation */
+.nav-link i {
+  font-size: 20px;
+  margin-inline: 10px;
+}
+
+.nav-item.dropdown {
+  align-content: center;
+}
+/* Home page banner */
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* Home page product items */
+.product-item {
+  overflow: hidden;
+}
+
+.product-item img {
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover img {
+  transform: scale(1.05);
+}

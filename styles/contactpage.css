@@ -61,7 +61,7 @@
 }
 
 .contactus button {
-    background-color: #0d6efd;
+    /* background-color: #0d6efd; */
     color: white;
     padding: 10px 15px;
     border: none;
@@ -70,6 +70,6 @@
     width: 100%;
 }
 
-.contactus button:hover {
+/* .contactus button:hover {
     background-color: #45a049;
-}
+} */

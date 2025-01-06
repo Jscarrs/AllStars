@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>All Stars - Custom T-Shirt Store</title>
+    <meta name="author" content="All Stars" />
+    <meta name="keywords" content="Custom T-Shirt, Clothing store" />
+    <meta
+      name="description"
+      content="Custom T-Shirts with AI-generated images powered by OpenArt.ai and DALL·E 2."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" />
+    <!-- Bootstrap style -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Main colors and typography styles -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/typography.css" />
+    <link rel="stylesheet" href="/styles/colors.css" />
+    <link rel="stylesheet" href="/styles/custom.css" />
+    <link rel="stylesheet" href="/styles/contactpage.css" />
+  </head>
+
+  <body>
+    <!-- Nav bar -->
+    <!-- Promo header -->
+    <div class="bg-secondary text-white text-center py-2">
+      15% off site-wide! use promo code <strong>SALE15</strong>
+    </div>
+    <nav class="navbar sticky-top shadow-sm navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- Brand Logo -->
+        <a class="navbar-brand" href="/index.html">
+          <img
+            src="/assets/logo.png"
+            width="200"
+            alt="Logo"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <!-- End of Brand Logo -->
+        <!-- Menu toggle button - Mobile-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon text-primary"></span>
+        </button>
+        <!-- Menu toggle button -->
+        <!-- Nav Menu -->
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarNav"
+        >
+          <!-- Main menus -->
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/shop.html">Shop All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/size-guide.html">Size Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/faq.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <!-- End of Main menus -->
+
+          <!-- Icon menus -->
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <button
+                class="btn btn-clear dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Profile
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item nav-link" href="#">Login</a></li>
+                <li>
+                  <a class="dropdown-item nav-link" href="#">My Orders</a>
+                </li>
+                <li>
+                  <a class="dropdown-item nav-link" href="#">My Wishlist</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="bi bi-suit-heart-fill"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn nav-link text-start"
+                data-bs-toggle="offcanvas"
+                href="#shoppingCart"
+                role="button"
+                aria-controls="shoppingCart"
+              >
+                <i class="bi bi-bag-fill"></i>
+              </a>
+            </li>
+          </ul>
+
+          <!-- End of Icon menus -->
+        </div>
+        <!-- End of Nav Menu -->
+      </div>
+    </nav>
+    <!-- End of Nav bar -->
+
+    <!-- Shopping cart -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="shoppingCart"
+      aria-labelledby="shoppingCartLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="shoppingCartLabel">Shopping cart</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ol class="list-group list-group-numbered">
+          <li
+            class="list-group-item d-flex justify-content-between align-items-start"
+          >
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">T-shirt - Abstract</div>
+              $35.00
+            </div>
+            <span class="badge text-bg-secondary rounded-pill">1</span>
+          </li>
+          <li
+            class="list-group-item d-flex justify-content-between align-items-start"
+          >
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">T-shirt - Minimal</div>
+              $30.00
+            </div>
+            <span class="badge text-bg-secondary rounded-pill">2</span>
+          </li>
+          <li
+            class="list-group-item d-flex justify-content-between align-items-start"
+          >
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">T-shirt - City</div>
+              $25.99 - coupon applied
+            </div>
+            <span class="badge text-bg-secondary rounded-pill">1</span>
+          </li>
+        </ol>
+        <h6 class="mt-3 text-end">Total: $115.99</h6>
+        <button class="btn btn-primary btn-lg mt-3" type="button">
+          CHECKOUT
+        </button>
+      </div>
+    </div>
+    <!-- End of Shopping Cart -->
+
+    <!-- Main content -->
+    <main>
+      <!-- Contact us -->
+      <div class="col-md">
+        <div class="contactus">
+          <h1 class="text-primary">Contact Us</h1>
+          <div class="contact-info">
+            <div class="info">
+              <h2>Get in Touch</h2>
+              <p>
+                We're here to help! Reach out to us with any questions or
+                concerns.
+              </p>
+              <h3>Email:</h3>
+              <p><a href="mailto:info@example.com">info@allstars.com</a></p>
+              <h3>Phone:</h3>
+              <p><a href="tel:+16471234567">+1 (647) 123 4567</a></p>
+
+              <!--embedd maps-->
+              <h3>Location:</h3>
+              <div class="location">
+                <a href="https://maps.app.goo.gl/tQWAsdmTqSXBizTQA" target="_blank"
+                  >View on Google Maps</a
+                >
+              </div>
+            </div>
+            <div class="contactform">
+              <h2>Contact Form</h2>
+              <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+
+                <button type="submit" class="btn-primary">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Contact us -->
+    </main>
+    <!-- End of main content -->
+
+    <!-- Footer -->
+    <footer class="bg-primary text-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>About Us</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="tel:+16471234567" class="nav-link p-0 text-light"
+                  >Phone: +1 (647) 123 4567</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="mailto:info@allstars.com" class="nav-link p-0 text-light"
+                  >Email: info@allstars.com</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="https://maps.app.goo.gl/tQWAsdmTqSXBizTQA" class="nav-link p-0 text-light"
+                  >Address: 205 Humber College Blvd, Etobicoke, ON M9W 5L7</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Socials</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Instagram</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Facebook</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">X</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Yelp</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-light">Thread</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly feature product, promotion, discount, and more!</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="email"
+                  class="form-control"
+                  placeholder="Email address" required
+                />
+                <button class="btn btn-outline-light" type="submit">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        >
+          <p>
+            &copy; 2024 Team ALLSTARS Inc. <br />
+            Images on this site are generated by AI tools, including
+            <a class="footer-link" href="https://openart.ai/" target="_blank"
+              >OpenArt.ai</a
+            >
+            and
+            <a
+              class="footer-link"
+              href="https://openai.com/dall-e/"
+              target="_blank"
+              >DALL·E 2 by ChatGPT</a
+            >.
+          </p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-light" href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-light" href="#"><i class="bi bi-instagram"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-light" href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer   -->
+
+    <!-- Bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
